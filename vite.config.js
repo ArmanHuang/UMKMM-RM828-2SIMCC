@@ -1,15 +1,10 @@
-{
-  "version": 2,
-  "builds": [
-    {
-      "src": "index.html",
-      "use": "@vercel/static"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/index.html"
-    }
-  ]
-}
+import { defineConfig } from 'vite';
+
+export default defineConfig({
+  server: {
+    port: 3000
+  },
+  build: {
+    outDir: 'dist',
+  },
+});
