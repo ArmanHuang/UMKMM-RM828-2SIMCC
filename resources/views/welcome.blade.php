@@ -13,8 +13,6 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kollektif&display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gilda+Display&display=swap">
 
-
-
     <!-- Scripts -->
     @vite(['resources/css/app.css', 'resources/js/app.js'])
     <style>
